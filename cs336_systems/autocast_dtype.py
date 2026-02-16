@@ -46,3 +46,5 @@ for _ in range(steps):
         print("dtype of model parameters fc2.grad: ", model.fc2.weight.grad.dtype)
         print("dtype of model parameters ln.grad: ", model.ln.weight.grad.dtype)
         model.zero_grad()
+
+#good to go
